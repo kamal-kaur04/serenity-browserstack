@@ -11,6 +11,7 @@ public class BStackDemoSteps {
 
     @Given("^I am on the website '(.+)'$")
     public void I_am_on_the_website(String url) throws Throwable {
+        System.out.println("ITS A TEST");
         demoPage.open();
         Thread.sleep(2000);
     }
